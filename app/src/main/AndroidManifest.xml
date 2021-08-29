@@ -10,13 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Aplikasiku">
         <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".eesimpel_login"
+
             android:exported="true" />
         <activity
             android:name=".E_Simpel_Register"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
